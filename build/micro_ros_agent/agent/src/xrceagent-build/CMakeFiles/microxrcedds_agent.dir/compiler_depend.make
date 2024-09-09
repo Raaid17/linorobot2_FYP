@@ -396,6 +396,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o: /home/raaid/linorobot2_ws
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -1030,6 +1031,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o: /home/raaid/linor
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -1528,6 +1530,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o: /home/raaid/linorobot2_ws/
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/PortParameters.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/PropertyPolicy.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportInterface.h \
@@ -2013,6 +2016,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o: /home/raaid/
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -3708,6 +3712,8 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o: /h
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /usr/include/c++/11/functional \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -3733,7 +3739,6 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o: /h
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportDescriptorInterface.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportReceiverInterface.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/network/SenderResource.h \
-  /usr/include/c++/11/functional \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/resources/ResourceManagement.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/ServerAttributes.h \
   /usr/include/c++/11/list \
@@ -4182,6 +4187,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o: 
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -4652,6 +4658,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -5124,6 +5131,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.c
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -13592,6 +13600,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o: /home/raa
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -14614,6 +14623,8 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o: /home/raa
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/PortParameters.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/PropertyPolicy.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+  /usr/include/c++/11/functional \
+  /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportInterface.h \
@@ -14628,7 +14639,6 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o: /home/raa
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportDescriptorInterface.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportReceiverInterface.h \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/network/SenderResource.h \
-  /usr/include/c++/11/functional \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/resources/ResourceManagement.h \
   /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
   /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp \
@@ -15407,6 +15417,10 @@ include/uxr/agent/config.hpp:
 
 /usr/include/c++/11/ratio:
 
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/11/condition_variable:
+
 /usr/include/c++/11/thread:
 
 /opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/TopicBuiltinTopicData.hpp:
@@ -15704,6 +15718,8 @@ include/uxr/agent/config.hpp:
 /usr/include/c++/11/cmath:
 
 /usr/include/spdlog/details/registry.h:
+
+/opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h:
 
 /usr/include/spdlog/logger.h:
 
@@ -16126,7 +16142,3 @@ include/uxr/agent/config.hpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/c++/11/condition_variable:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:

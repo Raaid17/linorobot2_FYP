@@ -27,9 +27,9 @@ _colcon_prefix_chain_powershell_source_script "/home/raaid/microros_ws/install\l
 _colcon_prefix_chain_powershell_source_script "/home/raaid/ros2_ws/src/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raaid/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raaid/my_laser_package/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/raaid/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raaid/ldlidar_ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raaid/ros2_ws/src/point_cloud_saver/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/raaid/ros2_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

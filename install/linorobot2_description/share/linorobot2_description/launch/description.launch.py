@@ -1,25 +1,10 @@
-# Copyright (c) 2021 Juan Miguel Jimeno
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http:#www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration, Command, PathJoinSubstitution, EnvironmentVariable
+from launch.substitutions import LaunchConfiguration, Command, PathJoinSubstitution
 from launch.conditions import IfCondition
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
-
 
 def generate_launch_description():
     robot_base = os.getenv('LINOROBOT2_BASE')
@@ -30,6 +15,10 @@ def generate_launch_description():
 
     rviz_config_path = PathJoinSubstitution(
         [FindPackageShare('linorobot2_description'), 'rviz', 'description.rviz']
+    )
+
+    ekf_config_path = PathJoinSubstitution(
+        [FindPackageShare("linorobot2_base"), "config", "ekf.yaml"]
     )
 
     return LaunchDescription([
@@ -62,9 +51,6 @@ def generate_launch_description():
             executable='joint_state_publisher',
             name='joint_state_publisher',
             condition=IfCondition(LaunchConfiguration("publish_joints"))
-            # parameters=[
-            #     {'use_sim_time': LaunchConfiguration('use_sim_time')}
-            # ] #since galactic use_sim_time gets passed somewhere and rejects this when defined from launch file
         ),
 
         Node(
@@ -89,14 +75,25 @@ def generate_launch_description():
             condition=IfCondition(LaunchConfiguration("rviz")),
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}]
         ),
-        
-         # Static transform publisher between odom and base_link
+
+        # # Dynamic TF broadcaster for odom to base_footprint (or base_link)
+        # Node(
+        #     package='linorobot2_description',
+        #     executable='odom_to_tf.py',
+        #     name='odom_to_tf',
+        #     output='screen'
+        # ),
+
         Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='odom_to_base_link',
-            arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
-        )
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[
+                ekf_config_path
+            ],
+            remappings=[("odometry/filtered", "odom")]
+        ),
     ])
 
 #sources: 

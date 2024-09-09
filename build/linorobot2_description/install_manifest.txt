@@ -18,6 +18,7 @@
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/laser.urdf.xacro
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/imu.urdf.xacro
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz/description.rviz
+/home/raaid/linorobot2_ws/install/linorobot2_description/lib/linorobot2_description/odom_to_tf.py
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/package_run_dependencies/linorobot2_description
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/parent_prefix_path/linorobot2_description
 /home/raaid/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.sh

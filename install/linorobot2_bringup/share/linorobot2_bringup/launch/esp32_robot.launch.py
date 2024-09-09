@@ -13,19 +13,33 @@ def generate_launch_description():
         FindPackageShare('linorobot2_description'), 'launch', 'description.launch.py'
     ])
 
-    joy_launch_path = PathJoinSubstitution([
-        FindPackageShare('linorobot2_bringup'), 'launch', 'joy_teleop.launch.py'
-    ])
+    # joy_launch_path = PathJoinSubstitution([
+    #     FindPackageShare('linorobot2_bringup'), 'launch', 'joy_teleop.launch.py'
+    # ])
 
     micro_ros_agent = ExecuteProcess(
         cmd=['ros2', 'run', 'micro_ros_agent', 'micro_ros_agent', 'udp4', '--port', '8888'],
         output='screen'
     )
 
+    ekf_config_path = PathJoinSubstitution(
+        [FindPackageShare("linorobot2_base"), "config", "ekf.yaml"]
+    )
+
     return LaunchDescription([
         micro_ros_agent,
+        Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[
+                ekf_config_path
+            ],
+            remappings=[("odometry/filtered", "odom")]
+        ),
         IncludeLaunchDescription(PythonLaunchDescriptionSource(description_launch_path)),
         IncludeLaunchDescription(PythonLaunchDescriptionSource(sensors_launch_path)),
-        IncludeLaunchDescription(PythonLaunchDescriptionSource(joy_launch_path))
+        #IncludeLaunchDescription(PythonLaunchDescriptionSource(joy_launch_path))
     ])
 

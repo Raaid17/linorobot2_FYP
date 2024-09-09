@@ -163,8 +163,8 @@ micro_ros_agent: /home/raaid/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_r
 micro_ros_agent: /home/raaid/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
 micro_ros_agent: /home/raaid/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
 micro_ros_agent: /home/raaid/linorobot2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
-micro_ros_agent: /home/raaid/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
-micro_ros_agent: /opt/ros/humble/lib/libfastrtps.so.2.6.7
+micro_ros_agent: /home/raaid/linorobot2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+micro_ros_agent: /opt/ros/humble/lib/libfastrtps.so.2.6.8
 micro_ros_agent: /opt/ros/humble/lib/librmw_dds_common__rosidl_typesupport_fastrtps_c.so
 micro_ros_agent: /opt/ros/humble/lib/librmw_dds_common__rosidl_typesupport_introspection_c.so
 micro_ros_agent: /opt/ros/humble/lib/librmw_dds_common__rosidl_typesupport_fastrtps_cpp.so

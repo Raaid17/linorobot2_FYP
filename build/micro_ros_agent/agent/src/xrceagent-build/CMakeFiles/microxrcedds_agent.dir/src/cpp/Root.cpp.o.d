@@ -298,6 +298,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/PortParameters.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/PropertyPolicy.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+ /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportInterface.h \

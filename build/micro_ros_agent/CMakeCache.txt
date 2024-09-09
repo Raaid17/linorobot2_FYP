@@ -371,7 +371,7 @@ micro_ros_msgs_DIR:PATH=/home/raaid/linorobot2_ws/install/micro_ros_msgs/share/m
 microcdr_DIR:PATH=/home/raaid/microros_ws/install/microcdr/share/microcdr/cmake
 
 //The directory containing a CMake configuration file for microxrcedds_agent.
-microxrcedds_agent_DIR:PATH=/home/raaid/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake
+microxrcedds_agent_DIR:PATH=/home/raaid/linorobot2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so

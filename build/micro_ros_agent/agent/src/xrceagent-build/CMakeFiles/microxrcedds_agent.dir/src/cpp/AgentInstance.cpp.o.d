@@ -424,6 +424,7 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+ /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
  /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \

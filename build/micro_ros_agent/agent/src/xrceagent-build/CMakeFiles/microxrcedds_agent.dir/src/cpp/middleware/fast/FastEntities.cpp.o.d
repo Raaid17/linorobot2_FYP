@@ -261,6 +261,8 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/MatchingInfo.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Token.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/Property.h \
+ /usr/include/c++/11/functional \
+ /opt/ros/humble/include/fastrtps/fastdds/rtps/exceptions/Exception.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/common/BinaryProperty.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/messages/CDRMessage.h \
  /opt/ros/humble/include/fastrtps/fastrtps/utils/fixed_size_string.hpp \
@@ -286,7 +288,6 @@ CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o: \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportDescriptorInterface.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/transport/TransportReceiverInterface.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/network/SenderResource.h \
- /usr/include/c++/11/functional \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/resources/ResourceManagement.h \
  /opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/ServerAttributes.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \

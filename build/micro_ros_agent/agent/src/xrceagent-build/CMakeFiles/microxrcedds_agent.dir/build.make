@@ -733,7 +733,7 @@ libmicroxrcedds_agent.so.2.4.1: CMakeFiles/microxrcedds_agent.dir/src/cpp/middle
 libmicroxrcedds_agent.so.2.4.1: CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o
 libmicroxrcedds_agent.so.2.4.1: CMakeFiles/microxrcedds_agent.dir/build.make
 libmicroxrcedds_agent.so.2.4.1: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
-libmicroxrcedds_agent.so.2.4.1: /opt/ros/humble/lib/libfastrtps.so.2.6.7
+libmicroxrcedds_agent.so.2.4.1: /opt/ros/humble/lib/libfastrtps.so.2.6.8
 libmicroxrcedds_agent.so.2.4.1: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 libmicroxrcedds_agent.so.2.4.1: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 libmicroxrcedds_agent.so.2.4.1: /opt/ros/humble/lib/libfoonathan_memory-0.7.1.a
